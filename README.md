@@ -28,4 +28,4 @@ A project in collaboration with mentors in Microsoft for Software Engineering & 
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 <br>
-<a href="https://colab.research.google.com/github/https://colab.research.google.com/drive/13pv_1CjtISdnbaa4Yr0nTTzH0KVYIcBx?usp=sharing">Google Sentence Piece</a>
+<a href="https://colab.research.google.com/github/https://colab.research.google.com/drive/13pv_1CjtISdnbaa4Yr0nTTzH0KVYIcBx?usp=sharing">Link not working? Click here</a>
