@@ -1,0 +1,40 @@
+---------------------
+User Stories:
+
+1 ) As a user, I want to be able to communicate with people from other countries, so I can make friends 
+
+2 ) As a user, I don't want to have to manually translate messages in other lanugages, so I can easily communicate with others
+
+---------------------
+
+Issues that we came across:
+
+-> Azure limiting the number of computes across our entire team. LM building is compute intensive meaning only one person was able to test models at any one time
+
+-> With many different models and differnt methods of building models (Pytorch, Keras, RNN (Recurrent Neural Network), DNN (Deep Neural Network), it was hard to choose one
+
+-> Deciding which tokeniser to use (Word Tokenization, character Tokenization or subword tokenization) (think we went with subword tokenization)
+
+-> Why we went with the model we went with (How did we choose between them?)
+
+---------------------
+
+Fixes for issues:
+
+(to be completed)
+
+---------------------
+
+Methods of tokenization with advantages / disadvantages
+
+Word-level tokenization: This method involves breaking down text into individual words or tokens. Each word is treated as a single token.
+Advantages: Simple to implement, easy to understand. Disadvantages: Fails to capture subword information, may not handle out-of-vocabulary (OOV) words well.
+
+Character-level tokenization: This method involves breaking down text into individual characters.
+Advantages: Can handle OOV words, captures subword information. Disadvantages: Increases the sequence length, may not be suitable for languages with complex scripts.
+
+Subword-level tokenization: This method involves breaking down words into subwords, which are smaller units of words.
+Advantages: Captures subword information, handles OOV words well, reduces sequence length. Disadvantages: Requires a subword vocabulary, may not be suitable for languages with complex scripts.
+
+---------------------
+Updated by Jude (27/04/24)
